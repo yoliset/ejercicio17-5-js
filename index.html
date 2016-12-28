@@ -13,34 +13,32 @@
 </head>
 <body>
     <div class="container">
-       <h1 class="text-center">Lorito</h1>
+              <h1 class="text-center">Lorito</h1>
         <div class="row">
-            <div class="col-md-3 col-md-offset-2">
-
+            <div class=" col-md-push-1 col-md-3 col-xs-8">
                 <div class="form-group">
-					<label for="hablar">¿El loro habla?</label>
-					<select class="form-control" id="talking">
-						<option value="1">Si</option>
-						<option value="2">No</option>
-					</select>
+					     <label for="hablar">¿El loro habla?</label>
+					   <select class="form-control" id="talking">
+						    <option value="1">Si</option>
+						    <option value="0">No</option>
+					   </select>
 				</div>
             </div>
-            <div class="col-md-3 col-md-offset-2">
-                <label for="horas">hora</label>
-                <input type="text" id="hora" value="">
+            <div class=" col-md-push-3 col-md-8 col-xs-12 ">
+                <label for="horas">Hora</label>
+                <p><input type="text" id="hora" value=""></p>  
             </div>
-            <div class="col-md-12 col-md-offset-5">
+            <div class="col-md-push-1 col-md-12 col-xs-12">
                     <button onclick="evaluar()" >Calcular</button>
             </div>
-        </div>
+            <div class="row col-md-push-1  col-md-12 col-xs-12 col-xs-push-1">
+                 Resultado: <input type="text" id="salida">
+            </div>
+         </div>
+         <div>
+               <p class="text-center">Mi lorito </p>    
+         </div>
     </div>
-    <div class="row col-md-12 col-md-offset-5">
-        Resultado: <input type="text" id="salida">
-    </div>
-    <div class="row">
-        <p class="text-center">Mi lorito </p>    
-    </div>
-
 </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </html>

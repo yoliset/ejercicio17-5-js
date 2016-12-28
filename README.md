@@ -1,23 +1,19 @@
-# ejercicio-6
-Ejercicio - 6
+# ejercicio-5
+Ejercicio - 5
 
-
-*Inicio: Dormimos?*
+*Inicio:Habla el lorito?
 
 ## Ingreso datos
-- aSmile
-- bSmile
-- Esta-sonriendo
+- talking
+- hora
+- Esta-hablando
 
 ## Proceso
 
-- Si aSmile es verdadero 
-	- Mostrar 1 // "sonrie"
-- Si no
-         si bSmile es verdadero 
-	        - "mostrar 0" // no sonrie
-         si no 
-         mostrar 1 //sonrie
+- Si loro talking a hora < 7 hora > 20  
+	- Mostrar 1 // "habla"
+- Si no lo contrario
+	        - "mostrar 0" // 
      fin si
  fin si
 *Fin*

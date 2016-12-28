@@ -1,6 +1,9 @@
 body{
-    background-image: url(img/estrella.jpg);
+    background-image: url(img/habla.gif);
+    background-size:contain;
     font-family: cursive; 
+    font-size: 18px;
+    color:blueviolet;
 }
 
 button{
@@ -14,10 +17,6 @@ button:hover{
     font-size: 25px;
     color: fuchsia;
 }
-
-
- 
-
 #salida {
     height: 30px;
    
