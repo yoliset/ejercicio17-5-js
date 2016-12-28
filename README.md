@@ -13,7 +13,6 @@ Ejercicio - 5
 - Si loro talking a hora < 7 hora > 20  
 	- Mostrar 1 // "habla"
 - Si no lo contrario
-	        - "mostrar 0" // 
-     fin si
+	        - "mostrar 0" // No habla
  fin si
 *Fin*
