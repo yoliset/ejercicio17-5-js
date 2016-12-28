@@ -1,3 +1,4 @@
+
 body{
     background-image: url(img/habla.gif);
     background-size:contain;
@@ -5,10 +6,11 @@ body{
     font-size: 18px;
     color:blueviolet;
 }
-
 button{
-    background-color: aqua;
+    font-size: 22px;
+    background-color:rgba(218, 112, 214, 0.48);
     margin: 25px;
+    padding: 7px;
 }
 button:hover{
     background-color: antiquewhite;
